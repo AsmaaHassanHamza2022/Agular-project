@@ -1,0 +1,11 @@
+<div class="container my-5">
+   
+        <input [(ngModel)]="newStudent.studentId" type="text"  class="form-control my-2" placeholder="StudentId" name="studentId" />
+        <input [(ngModel)]="newStudent.studentName" type="text" class="form-control my-2" placeholder="StudentName" name="studentId"/>
+        <input [(ngModel)]="newStudent.studentGrade" type="text" class="form-control my-2" placeholder="StudentGrade" name="studentId"/>
+        <input [(ngModel)]="newStudent.studentAge" type="text" class="form-control my-2" placeholder="StudentAge" name="studentId"/>
+        <input [(ngModel)]="newStudent.studentAddress" type="text" class="form-control my-2" placeholder="StudentAddress" name="studentId"/>
+
+        <button class="btn btn-primary" (click)="save(newStudent)">Add Student</button>
+        
+</div>
